@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "author": "Mirjana",
+  "version": "1.0.1",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "sasslintConfig": "sass-lint.yml",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveINFO</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+    <!-- Slick slider cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+        crossorigin="anonymous" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Hidden navbar -->
+        <nav class="hidden-nav">
+            <div class="navbar__inner">
+                <div class="close">x</div>
+            </div>
+        </nav>
+        <!--/hidden navbar-->
+        <div class="container">
+            <!-- Header inner -->
+            <div class="header__inner">
+                <!-- Container -->
+                <div class="container">
+                    <!-- Row -->
+                    <div class="row between align-center">
+                        <a class="logo-wrapp logo-wrapp--header" href="#">
+                            <img src="assets/images/logo-white-text.png" alt="logo">
+                        </a>
+                        <!-- Navbar -->
+                        <nav class="nav">
+                            <ul class="navbar-list navbar-list--header" id="top-menu">
+                                <li class="list-item">
+                                    <a class="link-item active" href="#js-hero">Home</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-about">About</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-features">Features</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-app">App</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-testimonials">Blog</a>
+                                </li>
+                                <li class="list-item list-item--btn">
+                                    <a class="link-item" href="#js-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- /navbar -->
+                        <div class="burger-menu">
+                            <div class="burger-menu__line"></div>
+                            <div class="burger-menu__line"></div>
+                            <div class="burger-menu__line"></div>
+                        </div>
+                    </div>
+                    <!-- /row -->
+                </div>
+                <!-- /header inner -->
+            </div>
+        </div>
+        <!--/container-->
+    </header>
+    <!--/header-->
+    <main>
+        <section class="hero-section" id="js-hero">
+            <div class="gradient-background-decoration-wrapper">
+                <div class="gradient-background-decoration-inner">
+                    <div class="hero-background-decoration">
+                        <span class="medium-circle medium-circle--border circle--hero-1"></span>
+                        <span class="big-circle circle--hero-2"></span>
+                        <span class="tiny-circle circle--hero-3"></span>
+                        <span class="medium-circle-2 circle--hero-4"></span>
+                        <span class="medium-circle circle--hero-5"></span>
+                        <span class="medium-circle medium-circle--border circle--hero-6"></span>
+                        <span class="tiny-circle circle--hero-7"></span>
+                        <span class="small-circle circle--hero-8"></span>
+                        <span class="big-circle circle--hero-9"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Container -->
+            <div class="container">
+                <!-- Hero section inner -->
+                <div class="hero-section-inner">
+                    <!-- Row -->
+                    <div class="row between row--hero">
+                        <div class="hero__text-wrapper">
+                            <h1 class="hero__title">Nulla ornare loortis sagittis hendrer</h1>
+                            <p class="hero__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut mattis diam.</p>
+                            <a href="#" class="hero__btn dwn-btn app-store-btn">
+                                <i class="dwn-btn__icon fab fa-apple dwn-icon"></i>
+                                <span class="dwn-btn__text">Download on the</span>
+                                <span class="dwn-btn__storename">App Store</span>
+                            </a>
+                            <a href="#" class="hero__btn dwn-btn google-play-btn">
+                                <img class="dwn-btn__icon google-icon" src="./assets/images/google-play.png" alt="google-play">
+                                <span class="dwn-btn__text">GET IT ON</span>
+                                <span class="dwn-btn__storename">Google Play</span>
+                            </a>
+                        </div>
+                        <div class="hero__img-wrapper">
+                            <img class="hero__img hero__img--1" src="./assets/images/phone-1.png" alt="phone-img">
+                            <img class="hero__img hero__img--2" src="./assets/images/phone-2.png" alt="phone-img">
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /hero section inner -->
+            <div class="scroll-down-wrapper">
+                <a class="scroll-down-link" href="#js-about">
+                    <img class="scroll-down-rectangle" src="assets/images/Rectangle.svg" alt="rectangle">
+                    <img class="scroll-down-eclipse" src="assets/images/Ellipse.svg" alt="eclipse">
+                </a>
+            </div>
+            <!-- /container -->
+        </section>
+        <!--/hero-section-->
+
+        <!-- About Us section -->
+        <section class="about-us-section" id="js-about">
+            <!-- Container -->
+            <div class="container">
+
+                <div class="about-us__inner">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="about-us__text-wrapp">
+                                <h2 class="about-us__title">About Us</h2>
+                                <p class="about-us__paragraph">
+                                    Dignissim convallis aenean et tortor at risus viverra. Nunc mattis enim ut tellus elementum sagittis vitae et. Turpis nunc
+                                    eget lorem dolor sed. Non tellus orci ac auctor augue mauris augue.
+                                </p>
+                                <p class="about-us__paragraph">
+                                    Praesent tristique magna sit amet purus gravida. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Leo vel orci
+                                    porta non. Neque sodales ut etiam sit amet nisl purus in mollis. Rhoncus aenean vel elit
+                                    scelerisque mauris pellentesque.
+                                </p>
+                                <p class="about-us__paragraph">
+                                    Venenatis cras sed felis eget velit aliquet sagittis id. Et tortor consequat id porta. Iaculis nunc sed augue lacus.
+                                </p>
+                                <a href="#" class="btn btn--primary">
+                                    Our App
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="video-wrapp">
+                                <div class="video__inner">
+                                    <div class="fade"></div>
+                                    <a href="#">
+                                        <img class="video-poster" src="./assets/images/video-poster.jpg" alt="">
+                                    </a>
+                                    <div class="play-icon">
+                                        <div class="play-icon-wrapp">
+                                            <i class="play-icon-img fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="light">
+                        <a class="boxclose" id="boxclose"></a>
+                        <video class="video" id="js-video" width="600" controls>
+                            <source src="assets/videos/video.mp4" type="video/mp4">
+                            <!--Browser does not support <video> tag -->
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /container -->
+        </section>
+        <!-- /about-us-section -->
+
+        <!-- Features section -->
+        <section class="features-section" id="js-features">
+            <!-- Features section wrapper -->
+            <div class="features-section-wrapper">
+                <!-- Features section inner -->
+                <div class="features-section-inner">
+                    <div class="container">
+                        <!-- Features text description wrapper -->
+                        <div class="features-text-description-wrapper">
+                            <div class="features-background-decoration gradient-background-decoration">
+                                <div class="features-gradient-circle-item features-gradient-circle-item-1">
+                                    <span class="small-circle"></span>
+                                </div>
+                                <div class="features-gradient-circle-item features-gradient-circle-item-2">
+                                    <span class="medium-circle"></span>
+                                </div>
+                                <div class="features-gradient-circle-item features-gradient-circle-item-3">
+                                    <span class="big-circle"></span>
+                                </div>
+                                <div class="features-gradient-circle-item features-gradient-circle-item-4">
+                                    <span class="small-circle"></span>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h2 class="features__title">Features</h2>
+                                <p class="features__paragraph">
+                                    Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Amet volutpat consequat mauris nunc congue nisi vitae
+                                    suscipit.
+                                </p>
+                                <p class="features__paragraph">
+                                    Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Cursus risus at ultrices mi tempus imperdiet.
+                                </p>
+                                <p class="features__paragraph">
+                                    Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Velit dignissim sodales ut eu sem.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /features text description wrapper -->
+                    </div>
+                    <!-- /container -->
+                    <div class="features-slider-wrapp">
+                        <!-- Features slider -->
+                        <div class="features-slider">
+                            <div class="features-card card">
+                                <div class="features-card__inner">
+                                    <div class="features-card__img">
+                                        <img class="features-card__svg" src="./assets/images/icon-1.svg" alt="icon-1">
+                                    </div>
+                                    <h3 class="features-card__title">
+                                        Easy To Navigate
+                                    </h3>
+                                    <p class="features-card__paragraph">
+                                        Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scele.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features-card card">
+                                <div class="features-card__inner">
+                                    <div class="features-card__img">
+                                        <img class="features-card__svg" src="./assets/images/icon-1.svg" alt="icon-1">
+                                    </div>
+                                    <h3 class="features-card__title">
+                                        Easy To Navigate
+                                    </h3>
+                                    <p class="features-card__paragraph">
+                                        Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scele.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features-card card">
+                                <div class="features-card__inner">
+                                    <div class="features-card__img">
+                                        <img class="features-card__svg" src="./assets/images/icon-1.svg" alt="icon-1">
+                                    </div>
+                                    <h3 class="features-card__title">
+                                        Easy To Navigate
+                                    </h3>
+                                    <p class="features-card__paragraph">
+                                        Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scele.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features-card card">
+                                <div class="features-card__inner">
+                                    <div class="features-card__img">
+                                        <img class="features-card__svg" src="./assets/images/icon-2.svg" alt="icon-1">
+                                    </div>
+                                    <h3 class="features-card__title">
+                                        Top Performance
+                                    </h3>
+                                    <p class="features-card__paragraph">
+                                        Pellentesque nec nam aliquam sem et tortor consequat id. Laoreet id donec ultrices tincidunt arcu non.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="features-card card">
+                                <div class="features-card__inner">
+                                    <div class="features-card__img">
+                                        <img class="features-card__svg" src="./assets/images/icon-3.svg" alt="icon-1">
+                                    </div>
+                                    <h3 class="features-card__title">
+                                        Power Support
+                                    </h3>
+                                    <p class="features-card__paragraph">
+                                        Interdum velit laoreet id donec ultrices tincidunt. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /features slider -->
+                    </div>
+                </div>
+                <!-- /features section inner -->
+            </div>
+            <!-- /features section wrapper -->
+        </section>
+
+        <!-- App section -->
+        <section class="app-section" id="js-app">
+            <!-- Container -->
+            <div class="container">
+                <div class="app-text-wrapper">
+                    <h2 class="app__title">Our App</h2>
+                </div>
+            </div>
+            <!-- /container -->
+            <div class="app-slider-wrapper">
+                <!-- App slider -->
+                <div class="app-slider">
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img4.jpg" alt="our-app-1">
+                    </a>
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img2.jpg" alt="our-app-2">
+                    </a>
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img3.jpg" alt="our-app-3">
+                    </a>
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img4.jpg" alt="our-app-4">
+                    </a>
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img5.jpg" alt="our-app-5">
+                    </a>
+                    <a href="#" class="app-preview card">
+                        <img class="app-img" src="./assets/images/app-img2.jpg" alt="our-app-2">
+                    </a>
+                </div>
+                <!-- /app slider -->
+            </div>
+        </section>
+        <!-- /app section-->
+
+        <!-- Testimonials section -->
+        <section class="testimonials-section" id="js-testimonials">
+            <div class="testimonials-text-description-wrapper">
+                <div class="testimonials-background-decoration gradient-background-decoration">
+                    <div class="testimonials-gradient-circle-item testimonials-gradient-circle-item-1">
+                        <span class="small-circle"></span>
+                    </div>
+                    <div class="testimonials-gradient-circle-item testimonials-gradient-circle-item-2">
+                        <span class="big-circle big-circle--border"></span>
+                    </div>
+                    <div class="testimonials-gradient-circle-item testimonials-gradient-circle-item-3 gradient-circle-item">
+                        <span class="big-circle"></span>
+                    </div>
+                    <div class="testimonials-gradient-circle-item testimonials-gradient-circle-item-4 gradient-circle-item">
+                        <span class="big-circle"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Container -->
+            <div class="container">
+                <!-- Testimonials section inner -->
+                <div class="testimonials-section__inner">
+                    <h2 class="testimonials__title">
+                        Testimonials
+                    </h2>
+                    <div class="testimonials-slider">
+                        <div class="testimonial-card card">
+                            <div class="testimonial-card__inner">
+                                <div class="row row--testimonials">
+                                    <div class="col-6  col-testimonials">
+                                        <div class="testimonial-card__img">
+                                            <img class="svg-clipped" src="./assets/images/manager1.png" alt="manager">
+                                        </div>
+                                    </div>
+                                    <svg width="0" height="0" viewBox="0 0 350 400">
+                                        <defs>
+                                            <clipPath id="my-shape" clipPathUnits="objectBoundingBox"> 
+                                                <path transform="scale(0.0025, 0.002857142857143)" d="M0,.4v350H160.44l162-42a77.09,77.09,0,0,0,54.69-96L315.81.4Z" transform="translate(0 -0.4)"/>
+                                          </clipPath> 
+                                        </defs>
+                                    </svg>
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__description-wrapper">
+                                            <div class="testimonial-card__description">
+                                                <h3 class="testimonial-card__title">John Doe</h3>
+                                                <img class="testimonial-card__profession-img" src="./assets/images/profession.svg" alt="profession">
+                                                <span class="testimonial-card__profession">Manager</span>
+                                                <img class="testimonial-card__quotation-mark" src="./assets/images/quotation-mark.svg" alt="quotation-mark">
+                                            </div>
+                                            <p class="testimonial-card__quotation">
+                                                Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Praesent semper feugiat nibh sed pulvinar proin gravida. Egestas dui
+                                                id ornare arcu odio ut sem nulla pharetra.
+                                            </p>
+                                            <p class="testimonial-card__quotation">
+                                                Uis at consectetur lorem. Eu turpis egestas pretium aenean pharetra magna acplacera ortor priverra suspendisse potenti nullam
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card card">
+                            <div class="testimonial-card__inner">
+                                <div class="row row--testimonials">
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__img">
+                                            <img class="svg-clipped" src="./assets/images/creative-director1.png" alt="manager">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__description-wrapper">
+                                            <div class="testimonial-card__description">
+                                                <h3 class="testimonial-card__title">Jane Doe</h3>
+                                                <img class="testimonial-card__profession-img" src="./assets/images/profession.svg" alt="profession">
+                                                <span class="testimonial-card__profession">Creative Director</span>
+                                                <img class="testimonial-card__quotation-mark" src="./assets/images/quotation-mark.svg" alt="quotation-mark">
+                                            </div>
+                                            <p class="testimonial-card__quotation">
+                                                Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scelerisque felis.
+                                            </p>
+                                            <p class="testimonial-card__quotation">
+                                                Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin aliquam
+                                                ultrices sagittis orci. Lokaroak sina hoce ma nola.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card card">
+                            <div class="testimonial-card__inner">
+                                <div class="row row--testimonials">
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__img">
+                                            <img class="svg-clipped" src="./assets/images/manager1.png" alt="manager">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__description-wrapper">
+                                            <div class="testimonial-card__description">
+                                                <h3 class="testimonial-card__title">Jane Doe</h3>
+                                                <img class="testimonial-card__profession-img" src="./assets/images/profession.svg" alt="profession">
+                                                <span class="testimonial-card__profession">Creative Director</span>
+                                                <img class="testimonial-card__quotation-mark" src="./assets/images/quotation-mark.svg" alt="quotation-mark">
+                                            </div>
+                                            <p class="testimonial-card__quotation">
+                                                Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scelerisque felis.
+                                            </p>
+                                            <p class="testimonial-card__quotation">
+                                                Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin aliquam
+                                                ultrices sagittis orci. Lokaroak sina hoce ma nola.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card card">
+                            <div class="testimonial-card__inner">
+                                <div class="row row--testimonials">
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__img">
+                                            <img class="svg-clipped" src="./assets/images/creative-director1.png" alt="manager">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-testimonials">
+                                        <div class="testimonial-card__description-wrapper">
+                                            <div class="testimonial-card__description">
+                                                <h3 class="testimonial-card__title">Jane Doe</h3>
+                                                <img class="testimonial-card__profession-img" src="./assets/images/profession.svg" alt="profession">
+                                                <span class="testimonial-card__profession">Creative Director</span>
+                                                <img class="testimonial-card__quotation-mark" src="./assets/images/quotation-mark.svg" alt="quotation-mark">
+                                            </div>
+                                            <p class="testimonial-card__quotation">
+                                                Orci ac auctor augue mauris. Faucibus et molestie ac feugiat sed. Ut venenatis tellus in metus vulputate eu scelerisque felis.
+                                            </p>
+                                            <p class="testimonial-card__quotation">
+                                                Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin aliquam
+                                                ultrices sagittis orci. Lokaroak sina hoce ma nola.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / testimonial section slider -->
+                </div>
+                <!-- /testimonials section inner -->
+            </div>
+            <!-- /container -->
+        </section>
+        <!-- /testimonials section -->
+
+        <!-- Subscribe section -->
+        <section class="subscribe-section">
+            <!-- Container -->
+            <div class="container">
+                <!-- Subscribe section wrapper -->
+                <div class="subscribe-section-wrapper">
+                    <!-- Subscribe section inner -->
+                    <div class="subscribe-section-inner">
+                        <div class="subscribe-content-wrapper">
+                            <div class="subscribe-background-decoration gradient-background-decoration">
+                                <div class="subscribe-gradient-circle-item subscribe-gradient-circle-item-1">
+                                    <span class="big-circle"></span>
+                                </div>
+                                <div class="subscribe-gradient-circle-item subscribe-gradient-circle-item-2">
+                                    <span class="small-circle"></span>
+                                </div>
+                                <div class="subscribe-gradient-circle-item subscribe-gradient-circle-item-3">
+                                    <span class="small-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Subscribe input wrapper -->
+                        <div class="subscribe-input-wrapper card">
+                            <div class="row row-subscribe">
+                                <div class="subscribe__img-wrapp">
+                                    <img src="./assets/images/subscribe.png" alt="subscribe">
+                                </div>
+                                <div class="subscribe__input-wrapp">
+                                    <h2 class="subscribe__title">
+                                        For Daily Notification, Subscribe
+                                    </h2>
+                                    <div class="input-group">
+                                        <input id="email-subscribe" class="subscribe__input input" type="text" placeholder="Enter your email address">
+                                        <button class="btn btn--secondary btn__subscribe" type="submit">Subscribe</button>
+                                    </div>
+                                    <div class="checkbox-wrapp--subscribe">
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="agree agree--subscribe">
+                                            <span class="agree-artificial agree-artificial--subscribe"></span>
+                                            We respect your privacy. By submitting, you agree to our
+                                            <a class="bold-underline" href="#">privacy policy.</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /subscribe input wrapper -->
+                    </div>
+                    <!-- /subscribe section inner -->
+                </div>
+                <!-- /subscribe section wrapper -->
+            </div>
+            <!-- /container -->
+        </section>
+        <!-- /subscribe section -->
+
+        <!-- Contact section -->
+        <section class="contact-section" id="js-contact">
+            <!-- Container -->
+            <div class="container">
+                <!-- Contact inner -->
+                <div class="contact__inner">
+                    <div class="row between">
+                        <div class="col-part--1">
+                            <!-- Contack information -->
+                            <div class="contact-information">
+                                <div class="contact-information__inner card">
+                                    <div class="contact-text">
+                                        <h2 class="contact-information__title">
+                                            Contact Information
+                                        </h2>
+                                        <div class="contact-information__wrapp">
+                                            <div class="row row--contact between">
+                                                <div class="contact-info">
+                                                    <img class="contact-info__icon" src="./assets/images/address.png" alt="address">
+                                                    <!-- <i class="contact-info__icon fas fa-map-marker-alt"></i> -->
+                                                    <span class="contact-info__colored">Contact</span>
+                                                    <a href="tel:7153416964" class="contact-info__text">715-341-6964</a>
+                                                </div>
+                                                <div class="contact-info">
+                                                    <img class="contact-info__icon" src="./assets/images/mail.png" alt="mail">
+                                                    <!-- <i class="contact-info__icon far fa-envelope"></i> -->
+                                                    <span class="contact-info__colored">Mail</span>
+                                                    <a href="mailto:info@liveinfo.com" class="contact-info__text">info@liveinfo.com</a>
+                                                </div>
+                                                <div class="contact-info contact-info--social">
+                                                    <img class="contact-info__icon" src="./assets/images/social.png" alt="social">
+                                                    <!-- <i class="contact-info__icon fas fa-share-alt"></i> -->
+                                                    <span class="contact-info__colored">Social media</span>
+                                                    <div class="social-media-icons">
+                                                        <a class="sm-icon-wrapp" href="#">
+                                                            <i class="sm-icon fab fa-facebook-f"></i>
+                                                        </a>
+                                                        <a class="sm-icon-wrapp" href="#">
+                                                            <i class="sm-icon fab fa-twitter"></i>
+                                                        </a>
+                                                        <a class="sm-icon-wrapp" href="#">
+                                                            <i class="sm-icon fab fa-instagram"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="contact-info__address">
+                                                <img class="contact-info__icon" src="./assets/images/telephone.png" alt="telephone">
+                                                <!-- <i class="contact-info__icon fas fa-phone-volume"></i> -->
+                                                <span class="contact-info__colored">Address</span>
+                                                <p class="contact-info__text">3496 Benson Street, Stevens Point, WI, Wisconsin, 54481</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="download-app download-app--contact">
+                                        <div class="download-app-inner">
+                                            <h3 class="download-app__subtitle">
+                                                Download your app today
+                                            </h3>
+                                            <div class="download-btns-wrapper">
+                                                <a href="#" class="dwn-btn app-store-btn">
+                                                    <i class="dwn-btn__icon fab fa-apple dwn-icon"></i>
+                                                    <span class="dwn-btn__text">Download on the</span>
+                                                    <span class="dwn-btn__storename">App Store</span>
+                                                </a>
+                                                <a href="#" class="dwn-btn google-play-btn">
+                                                    <img class="dwn-btn__icon google-icon" src="assets/images/google-play.png" alt="google-play">
+                                                    <span class="dwn-btn__text">GET IT ON</span>
+                                                    <span class="dwn-btn__storename">Google Play</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- /contact information -->
+                        </div>
+                        <div class="col-part--2">
+                            <!-- Contact form -->
+                            <div class="contact-form">
+                                <div class="contact-form__inner card">
+                                    <h2 class="contact-form__title">
+                                        Contact Form
+                                    </h2>
+                                    <!-- Contact form wrap -->
+                                    <div class="contact-form__wrap">
+                                        <form class="form" action="submit" method="POST" onsubmit="return validateForm()">
+                                            <div class="input-wrap clearfix">
+                                                <div class="input-wrap__part">
+                                                    <div class="placeholder-wrap">
+                                                        <input id="first-name" class="input contact__input" type="text" required>
+                                                        <div class="placeholder">
+                                                            First name
+                                                            <span class="input--colored">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-wrap__part">
+                                                    <div class="placeholder-wrap">
+                                                        <input id="last-name" class="input contact__input" type="text" required>
+                                                        <div class="placeholder">
+                                                            Last name
+                                                            <span class="input--colored">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-wrap__part">
+                                                    <div class="placeholder-wrap">
+                                                        <input id="email" class="input contact__input" type="text" required>
+                                                        <div class="placeholder">
+                                                            Email
+                                                            <span class="input--colored">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-wrap__part">
+                                                    <div class="placeholder-wrap">
+                                                        <input id="phone-number" class="input contact__input" type="number" required>
+                                                        <div class="placeholder">
+                                                            Phone number
+                                                            <span class="input--colored">*</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-wrap__part--textarea">
+                                                    <textarea placeholder="Message" name="your-message" id="message" cols="20" rows="9"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="checkbox-wrapp">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" class="agree agree--contact">
+                                                    <span class="agree-artificial"></span>
+                                                    We respect your privacy. By submitting, you agree to our
+                                                    <a class="bold-underline" href="#">privacy policy.</a>
+                                                </label>
+                                                <button type="submit" class="btn btn--secondary btn--contact">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--/contact form wrap-->
+                                </div>
+                            </div>
+                            <!-- Contact form -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /contact inner -->
+            </div>
+            <!-- /container -->
+        </section>
+        <!-- Contact section -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Container -->
+        <div class="footer-inner">
+            <div class="container">
+                <div class="row row--footer">
+                    <div class="footer__flex-col footer__flex-col--1">
+                        <a class="logo-wrapp logo-wrapp--footer" href="#">
+                            <img src="./assets/images/logo-white-text-footer.png" alt="logo">
+                        </a>
+                        <div class="footer__text-wrapp">
+                            <p class="footer__text">Nunc eget lorem dolor sed viverra ipsum nunc aliqusadet praesent semper.</p>
+                        </div>
+                        <div class="social-media-icons--footer">
+                            <a class="sm-icon-wrapp" href="#">
+                                <i class="sm-icon fab fa-facebook-f"></i>
+                            </a>
+                            <a class="sm-icon-wrapp" href="#">
+                                <i class="sm-icon fab fa-twitter"></i>
+                            </a>
+                            <a class="sm-icon-wrapp" href="#">
+                                <i class="sm-icon fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__flex-col footer__flex-col--2">
+                        <!-- Navbar -->
+                        <nav class="nav nav--footer">
+                            <ul class="navbar-list navbar-list--footer">
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-hero">Home</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-about">About</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-features">Features</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-app">App</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-testimonials">Blog</a>
+                                </li>
+                                <li class="list-item">
+                                    <a class="link-item" href="#js-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- /navbar -->
+                        <div class="download-app download-app--footer">
+                            <div class="download-app-inner">
+                                <h3 class="download-app__subtitle">
+                                    Download your app today
+                                </h3>
+                                <div class="download-btns-wrapper">
+                                    <a href="#" class="hero__btn dwn-btn app-store-btn">
+                                        <i class="dwn-btn__icon fab fa-apple dwn-icon"></i>
+                                        <span class="dwn-btn__text">Download on the</span>
+                                        <span class="dwn-btn__storename">App Store</span>
+                                    </a>
+                                    <a href="#" class="hero__btn dwn-btn google-play-btn">
+                                        <img class="dwn-btn__icon google-icon" src="assets/images/google-play.png" alt="google-play">
+                                        <span class="dwn-btn__text">GET IT ON</span>
+                                        <span class="dwn-btn__storename">Google Play</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__flex-col footer__flex-col--3">
+                        <div class="footer__icons-wrapp">
+                            <div class="footer__icons">
+                                <div class="footer__icon footer__icon--first">
+                                    <img src="./assets/images/telephone.png" alt="telephone">
+                                    <!-- <i class="fas fa-phone-volume"></i> -->
+                                    <a href="tel:7153416964">715-341-6964</a>
+                                </div>
+                                <div class="footer__icon footer__icon--second">
+                                    <img class="footer__icons-mail" src="./assets/images/mail.png" alt="mail">
+                                    <!-- <i class="contact-info__icon far fa-envelope"></i> -->
+                                    <a href="mailto:info@liveinfo.com">info@liveinfo.com</a>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assets/images/address.png" alt="address">
+                                <!-- <i class="contact-info__icon fas fa-map-marker-alt"></i> -->
+                                <span>3496 Benson Street, Stevens Point, WI, Wisconsin, 54481</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+        <div class="footer-copyright">
+            Copyright &copy; 2020 Liveinfo. All rights reserved.
+        </div>
+    </footer>
+    <!--/footer-->
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!-- Slick slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+*:focus {
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to left, #2F2F2F 0%, #1A1B1D 100%);
+    position: relative;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    max-width: 1620px; 
+    
+    @media only screen and(max-width: 1660px) {
+        padding: 0 30px;
+    }
+    @media only screen and(max-width: 768px) {
+        padding: 0 15px;
+    }
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    @media only screen and(max-width: 1024px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $main_text_color;
+    
+    &:active, 
+    &:visited {
+        color: $main_text_color;
+    }   
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.bold {
+    font-weight: bold;
+}
+
+.card {
+    background-color: $bg_color;
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.59);
+}
+
+.input {
+    font-family: "SFProDisplayRegular";
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid $border_color;
+    font-size: 18px;
+    cursor: text;
+    padding: 20px 0 20px 30px;
+    @media only screen and(max-width: 1280px) {
+        font-size: 16px;
+    }
+    @media only screen and(max-width: 568px) {
+        padding: 15px 0 15px 15px;
+    }
+    @media only screen and(max-width: 360px) {
+        font-size: 12px;
+    }
+}
+::placeholder {
+    font-family: "SFProDisplayRegular";
+}
+.slick-slide {
+    margin: 0 15px;
+}
+.slick-list {
+    margin: 0 -15px;
+}
+.gradient-background-decoration {
+    position: absolute;
+    background: linear-gradient(359.6deg, #503690 -28.47%, #EA1A6F 67.91%);
+    border-radius: 200px;
+    width: 1245px;
+    height: 1173px;
+    @media only screen and(max-width: 1920px) {
+        width: 929.21px;
+        height: 929.21px;  
+    }
+}

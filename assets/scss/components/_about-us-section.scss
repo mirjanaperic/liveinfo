@@ -1,0 +1,119 @@
+.about-us-section {
+    position: relative;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    color: $main_text_color;
+    z-index: 10;
+    margin-bottom: -130px;
+    margin-top: 100px;
+    @media only screen and(max-width: 768px) {
+        padding: 30px 0 10px 0;
+    }
+}
+.about-us__text-wrapp {
+    max-width: 525px;
+}
+.about-us__paragraph {
+    margin-bottom: 22px;
+}
+.video-wrapp {
+    padding-top: 70px;
+}
+.video__inner {
+    position: relative;
+}
+.video {
+    width: 100%;     
+    height: auto;
+    z-index: 9999;
+}
+.play-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.play-icon-wrapp {
+    border: 2px solid $main_text_color;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s ease;
+      
+    &:hover {
+        color: $main_color;
+        border-color: $main_color;
+    }
+}
+.play-icon-img {
+    font-size: 22px;
+}
+.fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+.video-poster {
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.59);
+    max-width: 807px;
+    width: 100%;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.light {
+    display: none;
+    z-index: 1002;
+    overflow: visible;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    @media only screen and(max-width: 1200px) {
+        width: 85%;
+    }   
+  }
+  #boxclose {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #222222;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 4px 14px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  .boxclose:before {
+    content: "×";
+  }

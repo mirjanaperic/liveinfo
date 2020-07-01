@@ -1,0 +1,177 @@
+.hero-section {
+    padding: 117px 0 125px;
+    position: relative;
+    width: 100%;
+    margin-bottom: -100px;
+    @media only screen and(max-width: 1280px) {
+        padding-bottom: 180px;
+    }
+}
+.row--hero {
+    flex-wrap: nowrap;
+    @media only screen and(max-width: 1024px) {
+        flex-wrap: wrap;
+    }
+}
+
+.hero__text-wrapper {
+    padding-top: 114px;
+    max-width: 670px;
+    @media only screen and(max-width: 1280px) {
+        max-width: 100%;
+        padding-top: 80px;
+    }
+    @media only screen and(max-width: 1024px) {
+        max-width: 100%; 
+        padding: 20px 0;
+    }
+    @media only screen and(max-width: 768px) {
+       padding: 0;
+    }
+}
+.hero__description {
+    font-size: 20px;
+    margin-bottom: 43px;
+  
+    @media only screen and(max-width: 768px) {
+        font-size: 16px;
+    }
+}
+.dwn-btn {
+    border: 1px solid transparent;
+    border-radius: 45px;
+    display: inline-block;
+    text-align: left;
+    width: 169px;
+    height: 50px;
+    white-space: nowrap;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    transition: .4s ease;
+
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        background-color: $bg-transparent-color;
+    }
+}
+.dwn-btn__text {
+    margin-left: 7px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: top;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+.dwn-btn__storename {
+    display: block;
+    margin-left: 58px;
+    margin-top: -16px;
+    letter-spacing: 2px;
+}
+.dwn-btn__icon {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.google-icon {
+    max-width: 20px;
+    margin-top: 15px;
+}
+.app-store-btn {
+    border-color: $main_text_color;
+    font-family: "MyriadProRegular";
+}
+.google-play-btn {
+    background-color: $bg-transparent-color-light;
+    font-family: "Product-Sans";
+
+    .dwn-btn__text {
+        margin-top: 10px;
+        font-size: 8px;
+        font-weight: 100;
+        margin-left: 0;
+    }
+    .dwn-btn__storename {
+        margin-left: 53px;
+        margin-top: -20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+.hero__btn {
+    display: inline-block;
+}
+.hero__img-wrapper {
+    animation: MoveUpDown 2s linear infinite;
+    white-space: nowrap;
+    width: 38.3%;
+
+    @media only screen and(max-width: 1280px) {
+        width: 100%;
+        text-align: center;
+    }
+}
+.hero__img {
+    width: 100%;
+    max-width: 335px;
+    height: auto;
+
+    @media only screen and(max-width: 568px) {
+        max-width: 250px;
+    }
+    @media only screen and(max-width: 360px) {
+        max-width: 200px;
+    }
+}
+.hero__img--1 {
+    margin-bottom: -54px;
+}
+.hero__img--2 {
+    margin-left: -174px;
+}
+.scroll-down-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-down-link {
+    position: relative;
+}
+.scroll-down-eclipse {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    animation: scroll 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+  }
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
+}
+
+ 

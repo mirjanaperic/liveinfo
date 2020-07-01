@@ -1,0 +1,127 @@
+.subscribe-section {
+    width: 100%;
+    padding: 10px 0 28px 0;
+    margin-top: -368px;
+    color: $main_text_color;
+    @media only screen and(max-width: 768px) {
+       margin-top: 0;
+    }
+}
+.subscribe-content-wrapper {
+    position: relative;
+    width: 37%;
+}
+.subscribe-input-wrapper {
+    background-repeat: no-repeat;
+}
+.row-subscribe {
+    flex-wrap: nowrap;
+    @media only screen and(max-width: 1660px) {
+        align-items: center;
+    }
+}
+.subscribe-background-decoration {
+    right: 0;
+    top: -205px;
+    transform: rotate(-75deg);
+    z-index: -1;
+}
+.subscribe-gradient-circle-item {
+    transform: rotate(15deg);
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.subscribe-gradient-circle-item-1 {
+    justify-content: flex-end;
+    .big-circle {
+        margin-right: 87px;
+        margin-top: 65px;
+    }
+}
+.subscribe-gradient-circle-item-2 {
+    justify-content: flex-end;
+    .small-circle {
+        margin-right: -44px;
+        margin-top: 368px;
+    }
+}
+.subscribe-gradient-circle-item-3 {
+    justify-content: center;
+    .small-circle {
+        margin-top: 265px;
+        margin-left: 80px;
+    }
+}
+input::placeholder {
+    overflow: visible;
+}
+.subscribe__img-wrapp {
+    img {
+        display: block;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        max-width: 100%;
+        height: auto;
+        @media only screen and(max-width: 1280px) {
+            display: none;
+        }
+    }
+}
+.subscribe__input-wrapp {
+    margin-left: 5px;
+    @media only screen and(max-width: 1280px) {
+        width: 100%;
+        margin-left: 0;
+        padding: 40px;
+    }
+    @media only screen and(max-width: 568px) {
+        padding: 15px;
+    }
+}
+.subscribe__input {
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    border-right: none;
+    flex-grow: 2;
+    color: $main_text_color;
+}
+.subscribe__title {
+    margin-bottom: 35px;
+    @media only screen and(max-width: 1660px) {
+        font-size: 45px;
+    }
+    @media only screen and(max-width: 1440px) {
+        font-size: 35px;
+    }
+    @media only screen and(max-width: 768px) {
+        font-size: 25px;
+    }
+    @media only screen and(max-width: 414px) {
+        font-size: 20px;
+    }
+}
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+    @media only screen and(max-width: 960px) {
+        font-size: 30px;
+    }
+}
+.btn__subscribe {
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    max-width: 100%;
+    padding: 20px 35px;
+    @media only screen and(max-width: 568px) {
+        padding: 13px 20px;
+    }
+}
+.checkbox-wrapp--subscribe {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @media only screen and(max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}

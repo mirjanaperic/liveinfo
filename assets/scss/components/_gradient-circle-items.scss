@@ -1,0 +1,59 @@
+.tiny-circle {
+    border: 5px solid $main_text_color;
+    border-radius: 50%;
+    opacity: .3;
+    height: 24px;
+    width: 24px;
+    animation: grow 3s linear infinite;
+}
+.small-circle {
+    border: 10px solid $main_text_color;
+    border-radius: 50%;
+    opacity: .4;
+    height: 38px;
+    width: 38px;
+    animation: grow 3.2s linear infinite;
+}
+.medium-circle {
+    border: 5px solid $main_text_color;
+    border-radius: 50%;
+    opacity: .1;
+    width: 58px;
+    height: 58px;
+    animation: grow 3.3s linear infinite;
+}
+.medium-circle-2 {
+    border: 5px solid $main_text_color;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    opacity: .3;
+    animation: grow 3.4s linear infinite;
+}
+.medium-circle--border {
+    border-width: 10px;
+    opacity: .3;
+}
+
+.big-circle {
+    border: 5px solid $main_text_color;
+    border-radius: 50%;
+    opacity: .4;
+    height: 80px;
+    width: 80px;
+    animation: grow 3.5s linear infinite;
+}
+.big-circle--border {
+    border-width: 10px;
+    opacity: .3;
+    animation: grow 3s linear infinite;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+}

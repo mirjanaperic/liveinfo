@@ -1,0 +1,123 @@
+
+h1 {
+   font-size: 80px;
+   font-family: "SFProDisplayRegular";
+   color: $main_text_color;
+   letter-spacing: 2px;
+   margin-bottom: 27px;
+    @media only screen and(max-width: 1660px) {
+        font-size: 60px;
+    }
+    @media only screen and(max-width: 1280px) {
+        font-size: 50px;
+    }
+    @media only screen and(max-width: 768px) {
+        font-size: 40px;
+    }
+    @media only screen and(max-width: 414px) {
+        font-size: 40px;
+    }
+//     @media only screen and(max-width: 375px) {
+//         font-size: 20px;
+//     }
+}
+h2 {
+    font-size: 60px;
+    font-family: "SFProDisplaySemibold";
+    margin-bottom: 30px;
+    color: $secondary_text_color;
+    @media only screen and(max-width: 1660px) {
+        font-size: 50px;
+    }
+    @media only screen and(max-width: 1440px) {
+        font-size: 40px;
+    }
+    @media only screen and(max-width: 1024px) {
+        font-size: 35px;
+    }
+    @media only screen and(max-width: 450px) {
+        font-size: 25px;
+    }
+}
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: $secondary_text_color;
+    font-family: "SFProDisplayRegular";
+   
+    @media only screen and(max-width: 1024px) {
+        font-size: 20px;
+    }
+    @media only screen and(max-width: 414px) {
+        font-size: 18px;
+    }
+}
+
+p { 
+    font-size: 18px;
+    font-family: "SFProDisplayRegular";
+    color: $secondary_text_color;
+
+    @media only screen and(max-width: 600px) {
+        font-size: 16px;
+    }
+    // @media only screen and(max-width: 1024px) {
+    //     font-size: 14px;
+    // }
+    @media only screen and(max-width: 414px) {
+        font-size: 14px;
+    }
+}
+li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: "SFProDisplayRegular";
+    @media only screen and(max-width: 900px) {
+        font-size: 14px;
+    }
+    // @media only screen and(max-width: 375px) {
+    //     font-size: 12px;
+    // }
+}
+a {
+    font-family: "SFProDisplayRegular";
+}
+
+// Font imports
+@font-face {
+    font-family: "SFProDisplayRegular";
+    src: url("./assets/fonts/SFProDisplay-Regular.ttf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SFProDisplayMedium";
+    src: url("./assets/fonts/SFProDisplay-Medium.ttf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SFProDisplaySemibold";
+    src: url("./assets/fonts/SFProDisplay-Semibold.ttf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SFProDisplayBold";
+    src: url("./assets/fonts/SFProDisplay-Bold.ttf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("./assets/fonts/myriad-pro/MYRIADPRO-REGULAR.woff") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Product-Sans";
+    src: url("./assets/fonts/Product_Sans_Font_Family/Product-Sans-400.ttf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}

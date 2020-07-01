@@ -1,0 +1,277 @@
+.contact-section {
+    width: 100%;
+    padding: 120px 0;
+    color: $main_text_color;
+    @media only screen and(max-width: 768px) {
+        padding: 50px 0 70px 0;
+    }
+    h2 {
+        margin-top: 10px;
+    }
+}
+.col-part--1 {
+    flex-basis: 41%;
+    max-width: 41%;
+    @media only screen and(max-width: 1455px) {
+        flex-basis: 57%;
+        max-width: 57%;
+    }
+    @media only screen and(max-width: 1024px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+.row--contact {
+    flex-wrap: nowrap;
+    @media only screen and(max-width: 1280px) {
+        justify-content: space-between;
+    }
+    @media only screen and(max-width: 568px) {
+        flex-wrap: wrap;
+    }
+}
+.contact-info {
+    margin-bottom: 40px;
+    @media only screen and(max-width: 1660px) {
+        margin-right: 0;
+    }
+}
+.contact-info__text {
+    margin-left: 32px;
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+}
+.contact-info__icon {
+    margin-right: 12px;
+    color: $main_color;
+}
+.col-part--2 {
+    flex-basis: 57%;
+    max-width: 57%;
+    @media only screen and(max-width: 1455px) {
+        flex-basis: 41%;
+        max-width: 41%;
+    }
+    @media only screen and(max-width: 1024px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.contact-text {
+    padding: 25px 55px 25px 50px;
+    @media only screen and(max-width: 568px) {
+        padding: 15px;
+    }
+}
+.contact-form__inner {
+    padding: 25px 50px 30px 40px;
+    @media only screen and(max-width: 568px) {
+        padding: 15px;
+    }
+}
+.contact-info__colored {
+    color: $main_color;
+    font-size: 20px;
+    font-family: "SFProDisplayRegular";
+    @media only screen and(max-width: 568px) {
+        font-size: 16px;
+    }
+}
+.social-media-icons {
+    margin-left: 24px;
+    margin-top: 14px;
+}
+.download-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.download-app-inner {
+    padding: 80px 0 105px 0;
+    @media only screen and(max-width: 568px) {
+        padding: 60px 0 85px 0;
+    }
+}
+.download-app__subtitle {
+    letter-spacing: 1.5px;
+}
+.download-app--contact {
+    background-image: url('./assets/images/contact-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sm-icon {
+    margin-right: 10px;
+    font-size: 23px;
+    transition: .4s ease;
+    &:hover {
+        color: $main_color;
+    }
+}
+.input-wrap__part {
+    display: inline-block;
+    width: 49%;
+    float: left;
+    margin-bottom: 27px;
+    font-family: "SFProDisplayRegular";
+    
+    &:nth-child(2n) {
+        margin-left: 2%;
+    }
+    input {
+        width: 98%;
+        // padding: 20px 10px 20px 30px;
+        color: $secondary_text_color;
+    }
+}
+.input-wrap__part--textarea {
+    textarea {
+        font-family: "SFProDisplayRegular";
+        width: 100%;
+        background-color: transparent;
+        resize: none;
+        border-radius: 30px;
+        border: 2px solid $border_color;
+        font-size: 18px;
+        padding: 13px 20px;
+        color: $main_text_color;
+        margin-bottom: 20px;
+        @media only screen and(max-width: 1280px) {
+            font-size: 16px;
+        }
+        @media only screen and(max-width: 560px) {
+            padding: 13px 15px;
+        }
+        @media only screen and(max-width: 360px) {
+            font-size: 12px;
+        }
+    }
+}
+
+.placeholder-wrap {
+    position: relative;
+}
+.placeholder-wrap input {
+    &:focus + .placeholder, 
+    &[required]:valid + .placeholder, 
+    &.not-empty + .placeholder {
+      display: none;
+    }
+  }
+.placeholder {
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    color: $border_color;
+    pointer-events: none;
+    font-size: 18px;
+    @media only screen and(max-width: 1280px) {
+        font-size: 16px;
+    }
+    @media only screen and(max-width: 568px) {
+        left: 15px;
+        top: 18px;
+    }
+    @media only screen and(max-width: 360px) {
+        font-size: 12px;
+    }
+}
+
+.input--colored {
+    color: $main_color;
+}
+
+.contact-form__wrap {
+    margin-bottom: 20px;
+}
+.btn--contact {
+    display: block;
+}
+.checkbox-wrapp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @media only screen and(max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
+.checkbox {
+    font-family: "SFProDisplayRegular";
+    margin-bottom: 20px;
+    font-size: 14px;
+    
+    @media only screen and(max-width: 1455px) {
+        font-size: 12px;
+    }
+    @media only screen and(max-width: 414px) {
+        font-size: 10px;
+    }
+}
+.agree {
+    visibility: hidden;
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.agree-artificial {
+    height: 15px;
+    width: 15px;
+    margin-right: 13px;
+    border: 2px solid $border_color;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.agree:checked + .agree-artificial {
+    background-color: $main_color;
+}
+.bold-underline {
+    font-weight: bold;
+    transition: .4s ease;
+    position: relative;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: $main_text_color;
+        bottom: 0;
+        right: 0;
+        transition: .4s ease;
+    }
+    &:hover {
+        color: $main_color;
+        &::after {
+            background-color: $main_color;
+        }
+    }
+}
+.error {
+    color: $main_color;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: "SFProDisplayRegular";
+}
+.download-app--contact {
+    .dwn-btn {
+        @media only screen and(max-width: 568px) {
+            display: block;
+            margin: 10px auto;
+        }
+    }
+    
+}
+

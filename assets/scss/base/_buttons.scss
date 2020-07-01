@@ -1,0 +1,42 @@
+.btn {
+    border: 1px solid transparent;
+    border-radius: 45px;
+    padding: 13px 30px;
+    font-size: 18px;
+    font-family: "SFProDisplayRegular";
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+    display: inline-block;
+    @media only screen and(max-width: 768px) {
+        padding: 10px 25px; 
+        font-size: 16px;
+    }
+}
+.btn--primary {
+    background-color: transparent;
+    color: $main_text_color;
+    border-color: $main_text_color;
+
+    &:hover {
+        // border-color: $main_color;
+        background-color: $main_text_color;
+        color: $bg_color;
+    }
+}
+.btn--secondary {
+    color: $main_text_color;
+    background-color: $main_color;
+
+    &:hover {
+        color: $main_color;
+        background-color: $main_text_color;
+    }
+}
+
+// .btn--large {
+//     padding: 15px 45px;
+//     @media only screen and(max-width: 450px) {
+//         font-size: 12px;
+//         padding: 10px 35px;
+//     }
+// }

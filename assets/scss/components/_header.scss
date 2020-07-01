@@ -1,0 +1,119 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: .4s ease;
+}
+.header__inner {
+    position: relative;
+    width: 100%;
+    padding: 5px 0 5px 0;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: $main_text_color;
+        opacity: .5;
+        bottom: 0;
+    }
+}
+.logo-wrapp {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.logo-wrapp--header {
+    max-width: 129px;
+    transition: .4s ease;
+}
+.nav {
+    @media only screen and(max-width: 800px) {
+        display: none;
+    }
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+}
+.list-item {
+    list-style: none;
+    margin-left: 41px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+.link-item {
+    position: relative;
+    padding-bottom: 20px;
+    
+    &::before {
+        position: absolute;
+        content: '';
+        height: 4px;
+        max-width: 100%;
+        width: 0;
+        border-radius: 2px;
+        background-color: $main_text_color;
+        opacity: 0;
+        visibility: hidden;
+        bottom: 12px;
+        left: 0;
+        z-index: 1;
+        transition: .4s ease;
+    }
+    &.active {
+        &::before {
+            opacity: 1;
+            visibility: visible;
+            width: 100%;
+        }
+    }
+}
+
+.list-item--btn {
+    
+    .link-item {
+        padding: 13px 30px;
+        border: 1px solid transparent;
+        border-radius: 45px;
+        transition: .4s ease;
+        background-color: $main_text_color;
+        color: $main_color;
+        cursor: pointer;
+
+        &::before {
+            content: none;
+        }  
+        &:hover {
+            background-color: $main_color;
+            border-color: $main_text_color;
+        }
+    }
+}
+.list-item--btn:hover .link-item {
+    color: $main_text_color;
+}
+.burger-menu {
+    display: none;
+    vertical-align: middle;
+    cursor: pointer;
+    @media only screen and(max-width: 800px) {
+        display: block;
+    }
+}
+.burger-menu__line {
+    width: 30px;
+    height: 4px;
+    background-color: $secondary_text_color;
+    border-radius: 20px;
+    margin: 6px 0;
+    z-index: 10;
+}
