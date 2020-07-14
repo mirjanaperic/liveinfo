@@ -2,4 +2,4 @@
 
  - a single page website developed in Librafire company
 
-![liveinfo](./liveinfo.png)
+![liveinfo](./HP-Liveinfo-1.jpg.jpg)
